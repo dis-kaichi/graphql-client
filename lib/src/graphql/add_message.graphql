@@ -1,0 +1,6 @@
+mutation AddMessage($message: String!) {
+  addMessage(message: $message) {
+    id
+    message
+  }
+}
